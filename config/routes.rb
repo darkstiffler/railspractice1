@@ -1,4 +1,5 @@
 Railspractice1::Application.routes.draw do
+  get "sessions/new"
   resources :users
 
   get "messages/index"
