@@ -1,7 +1,6 @@
 Railspractice1::Application.routes.draw do
+  resources :users
 
-  get "users/index"
-  get "users/create"
   get "messages/index"
   get "messages/create"
   get "site/index"
